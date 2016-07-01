@@ -6,7 +6,7 @@
 #$ -l h_rt=1:00:0
 #$ -l mem=4G
 #$ -l tmpfs=10G
-#$ -pe mpi 4
+#$ -pe smp 4
 #$ -t 130-434
 #$ -N makeDataQualityTrees
 #$ -wd /home/ucapstr/Scratch/output
